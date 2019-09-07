@@ -1,0 +1,32 @@
+{
+    "name": "featuresflag/sdk-php",
+    "type": "library",
+    "description": "The FeaturesFlag SDK",
+    "keywords": ["sdk"],
+    "homepage": "https://featuresflag.com",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Uelinton Martins",
+            "email": "uelintontmartins@gmail.com"
+        },
+        {
+            "name": "Rafael Macêdo",
+            "email": "3011rafael@gmail.com"
+        },
+        {
+            "name": "Features Flag",
+            "email": "featuresflag@gmail.com",
+            "homepage": "https://featuresflag.com"
+        }
+    ],
+    "require": {
+        "php": "^7.2",
+        "doctrine/collections": "^2.0@dev"
+    },
+    "require-dev": {
+        "predis/predis": "~1.1",
+        "psr/http-client": "^1.0"
+    },  
+    "minimum-stability": "dev"    
+}
